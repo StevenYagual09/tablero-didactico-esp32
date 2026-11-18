@@ -2,7 +2,7 @@
 
 Sistema embebido orientado a la estimulación sensorial, auditiva y del lenguaje en bebés y niños pequeños mediante botones físicos de alta resistencia, reproducción de audio MP3, conectividad Wi-Fi (Access Point/Estación) y telemetría de preferencias en la nube.
 
-* **Materia:** Laboratorio de Sistemas Embebidos – Paralelo 106 (ESPOL)
+* **Materia:** Sistemas Embebidos
 * **Autores:** Roberth Steven Yagual Suarez & Cristhian Erwin Lucas Chávez
 * **Documentación completa:** Ver [DESIGN_DOC.md](./DESIGN_DOC.md)
 
