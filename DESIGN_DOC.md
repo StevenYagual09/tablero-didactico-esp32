@@ -2,7 +2,6 @@
 
 * **Proyecto:** Tablero didáctico para bebés
 * **Autor:** Roberth Steven Yagual Suárez
-* **Curso:** Laboratorio de Sistemas Embebidos – Paralelo 106 (ESPOL)
 * **Fecha:** Noviembre 2026
 
 ---
