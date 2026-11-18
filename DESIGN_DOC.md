@@ -38,13 +38,13 @@ El proyecto consiste en un tablero didáctico interactivo basado en **ESP32** or
 ## 3. Diagrama de Contexto
 El niño interactúa únicamente con los botones físicos y el altavoz. El adulto cambia modos, activa manualmente el Wi-Fi (pulsación larga de $3\text{ s}$) y recarga las baterías fuera del tablero.
 
-![Diagrama de Contexto](./docs/diagrama_contexto.png)
+![Diagrama de Contexto](./docs/diagrama_contexto.jpg)
 
 ---
 
 ## 4. Diagrama de Bloques del Diseño
 
-![Diagrama de Bloques](./docs/diagrama_bloques.png)
+![Diagrama de Bloques](./docs/diagrama_bloques.jpg)
 
 * **Subsistema de Energía:** Dos celdas 18650 en paralelo ($3.0\text{ – }4.2\text{ V}$) protegidas por placa 1S y PTC de $3\text{ A}$ alimentan un *boost* de $5\text{ V}$ para el DFPlayer y el pin `VIN` del ESP32. Un divisor resistivo ($100\text{ k}\Omega + 100\text{ k}\Omega$) en `GPIO 34` permite alertar a $3.4\text{ V}$ y cortar cargas a $3.2\text{ V}$.
 * **Procesamiento, Audio y Nube:** El ESP32 gestiona las entradas digitales, almacena 2 redes Wi-Fi, volumen y último modo en EEPROM emulada, controla el DFPlayer Mini por UART ($9600\text{ bps}$) y acumula contadores de uso (pistas más tocadas y tiempo de sesión) para enviarlos por lotes en JSON vía HTTPS cuando el adulto enciende el Wi-Fi.
@@ -53,7 +53,7 @@ El niño interactúa únicamente con los botones físicos y el altavoz. El adult
 
 ## 5. Diagrama de Máquina de Estados
 
-![Máquina de Estados](./docs/maquina_estados.png)
+![Máquina de Estados](./docs/maquina_estados.jpg)
 
 ---
 
